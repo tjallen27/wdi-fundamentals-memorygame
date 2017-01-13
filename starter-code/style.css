@@ -62,3 +62,9 @@ nav a:hover {
 footer {
 	background-color: #808080;
 }
+
+/* added to keep the card images from imgur a decent size */
+img {
+	height: 200px;
+  width: 150px;
+}
