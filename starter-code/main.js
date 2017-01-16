@@ -56,9 +56,9 @@ var cardsInPlay = [];
 	  // show the card's image
 		console.log(this.getAttribute('data-card'));
 		if (this.getAttribute('data-card') === 'king') {
-		this.innerHTML = "<img src='http://i.imgur.com/bnuv5Im.png'>"; // king
+		this.innerHTML = "<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Poker-sm-212-Ks.png/220px-Poker-sm-212-Ks.png'>"; // king
 		} else {
-		this.innerHTML = "<img src='http://i.imgur.com/v6buNt2.png'>"; //queen
+		this.innerHTML = "<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Poker-sm-213-Qs.png/170px-Poker-sm-213-Qs.png'>"; //queen
 		}
 
 	  // if you have two cards in play, check for a match
