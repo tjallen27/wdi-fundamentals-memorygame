@@ -54,12 +54,12 @@ var cardsInPlay = [];
 	  // for now, just know it gives you access to the card the user clicked on
 	  cardsInPlay.push(this.getAttribute('data-card'));
 	  // show the card's image
-	console.log(this.getAttribute('data-card'));
-	if (this.getAttribute('data-card') === 'king') {
+		console.log(this.getAttribute('data-card'));
+		if (this.getAttribute('data-card') === 'king') {
 		this.innerHTML = "<img src='http://i.imgur.com/bnuv5Im.png'>"; // king
-	} else {
+		} else {
 		this.innerHTML = "<img src='http://i.imgur.com/v6buNt2.png'>"; //queen
-	}
+		}
 
 	  // if you have two cards in play, check for a match
 	  if (cardsInPlay.length === 2) {

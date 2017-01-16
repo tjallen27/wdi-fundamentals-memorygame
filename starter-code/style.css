@@ -63,8 +63,8 @@ footer {
 	background-color: #808080;
 }
 
-/* added to keep the card images from imgur a decent size */
+/*make image same size as card*/
 img {
 	height: 200px;
-  width: 150px;
+  	width: 150px;
 }
